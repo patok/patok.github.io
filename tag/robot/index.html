@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-ES" class="no-js">
 <head>
-<meta http-equiv="Last-Modified" content="Tue, 10 Feb 2015 05:13:51 GMT">
+<meta http-equiv="Last-Modified" content="Tue, 10 Feb 2015 05:13:53 GMT">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -9,7 +9,7 @@
 	<script src="/wp-content/themes/twentyfifteen/js/html5.js"></script>
 	<![endif]-->
 	<script>(function(){document.documentElement.className='js'})();</script>
-	<title>Un robot en mi placard | Blog de patok</title>
+	<title>robot | Blog de patok</title>
 <meta name='robots' content='noindex,follow' />
 <link rel='stylesheet' id='twentyfifteen-fonts-css'  href="//fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext" type='text/css' media='all' />
 <link rel='stylesheet' id='genericons-css'  href="/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2" type='text/css' media='all' />
@@ -394,12 +394,10 @@
 <script type='text/javascript' src="/wp-includes/js/jquery/jquery.js?ver=1.11.1"></script>
 <script type='text/javascript' src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
-<link rel='prev' title='hola' href="/hola/" />
 <meta name="generator" content="WordPress 4.1 with StaticPress ver.0.4.3.7" />
-<link rel='canonical' href="http://blog.keilty.com.ar/robot-en-mi-placard/" />
 </head>
 
-<body class="single single-post postid-17 single-format-standard custom-background">
+<body class="archive tag tag-robot tag-5 custom-background">
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Ir al contenido</a>
 
@@ -444,64 +442,31 @@
 
 	<div id="content" class="site-content">
 
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		
+			<header class="page-header">
+				<h1 class="page-title">Etiqueta: robot</h1>			</header><!-- .page-header -->
+
+			
 <article id="post-17" class="post-17 post type-post status-publish format-standard hentry category-android category-robotica tag-android tag-lego-nxt tag-robot">
 	
 	<header class="entry-header">
-		<h1 class="entry-title">Un robot en mi placard</h1>	</header><!-- .entry-header -->
+		<h2 class="entry-title"><a href="/robot-en-mi-placard/" rel="bookmark">Un robot en mi placard</a></h2>	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<p>La idea era volver a jugar con el kit robótico LEGO NXT  para divertirnos un rato, y decidí encarar un modelo que tenía en el manual: el RollerShooter, que consiste en una base giratoria de 360º, con un brazo móvil dispara bolitas a gran  velocidad (ver figura).<span id="more-17"></span><a href="/wp-content/uploads/2015/02/manual-2.jpg"><img class="  wp-image-13 alignleft" src="/wp-content/uploads/2015/02/manual-2.jpg" alt="manual-2" width="233" height="311" /></a>La novedad es que en vez de ser autónomo y estar controlado por un programa interno (dado que iba a llevar mucho tiempo instalar el entorno de desarrollo de NXT), lo controlaríamos desde mi teléfono MotoG via bluetooth.</p>
-<p><strong>Manos a la obra</strong></p>
-<p>Arrancamos el sábado, Juli estaba mas que dispuesta a ayudar en la ardua tarea, pacientemente seguimos el paso a paso del manual. Ella mas que yo, le puso dedicación y mucha saliva a la tarea, y luego de un rato ya teníamos la estructura del robot lista.</p>
-<div id='gallery-1' class='gallery galleryid-17 gallery-columns-4 gallery-size-large'><figure class='gallery-item'>
-			<div class='gallery-icon portrait'>
-				<a href="/?attachment_id=24"><img width="660" height="880" src="/wp-content/uploads/2015/02/manual-11.jpg" class="attachment-large" alt="manual-1" /></a>
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon portrait'>
-				<a href="/?attachment_id=22"><img width="660" height="880" src="/wp-content/uploads/2015/02/juli-1.jpg" class="attachment-large" alt="juli-1" /></a>
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon portrait'>
-				<a href="/?attachment_id=23"><img width="660" height="880" src="/wp-content/uploads/2015/02/juli-robot.jpg" class="attachment-large" alt="juli-robot" /></a>
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<a href="/?attachment_id=16"><img width="660" height="495" src="/wp-content/uploads/2015/02/robot-3.jpg" class="attachment-large" alt="robot-3" /></a>
-			</div></figure>
-		</div>
-
-<p>A mi me tocaba armar la aplicación para el teléfono, con eso estaríamos listos.</p>
-<p><a href="/wp-content/uploads/2015/02/robot-2.jpg"><img class="alignnone  wp-image-15" src="/wp-content/uploads/2015/02/robot-2.jpg" alt="robot-2" width="339" height="254" /></a><br />
-<strong><br />
-Un androide controlando un robot</strong></p>
-<p>Usé como base el trabajo de Frank Ableson, autor de &#8220;Android in Action 2nd edition&#8221;. Básicamente necesitábamo accionar los 3 motores del NXT para controlar respectivamente:</p>
-<ul>
-<li>rotación</li>
-<li>elevación del brazo</li>
-<li>disparo de las bolas</li>
-</ul>
-<p><a href="/wp-content/uploads/2015/02/android-app.jpg"><img class="  wp-image-11 alignleft" src="/wp-content/uploads/2015/02/android-app.jpg" alt="android-app" width="98" height="130" /></a>Luego de las pruebas básicas de rigor controlando un sólo motor, terminamos usando una sencilla interface de botones de ON, OFF, UP, DOWN, RIGHT, LEFT, y FIRE.</p>
-<p>A continuación un video del resultado &#8230;</p>
-<p><iframe src="https://www.youtube.com/embed/FRKmrq6Hh2g" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><strong>Finalmente<br />
-</strong></p>
-<p>Nos llevó un buen rato encastrar los LEGOs y desarrollar la <a title="NXT-robot-controller-android" href="https://github.com/patok/NXT-robot-controller-android" target="_blank">aplicación android</a> &#8230; además de divertirnos apuntando y disparando las bolitas a blancos predilectos, también nos divertimos en el proceso, sino no hubiésemos invertido tanto esfuerzo.</p>
+		<p>La idea era volver a jugar con el kit robótico LEGO NXT  para divertirnos un rato, y decidí encarar un modelo que tenía en el manual: el RollerShooter, que consiste en una base giratoria de 360º, con un brazo móvil dispara bolitas a gran  velocidad (ver figura). <a href="/robot-en-mi-placard/#more-17" class="more-link">Continúa leyendo <span class="screen-reader-text">Un robot en mi placard</span></a></p>
 	</div><!-- .entry-content -->
 
 	
 	<footer class="entry-footer">
-		<span class="posted-on"><span class="screen-reader-text">Publicado el </span><a href="/robot-en-mi-placard/" rel="bookmark"><time class="entry-date published" datetime="2015-02-09T18:54:31+00:00">9 febrero, 2015</time><time class="updated" datetime="2015-02-10T05:12:46+00:00">10 febrero, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Autor </span><a class="url fn n" href="/author/patok/">patok</a></span></span><span class="cat-links"><span class="screen-reader-text">Categorías </span><a href="/category/android/" rel="category tag">Android</a>, <a href="/category/robotica/" rel="category tag">Robótica</a></span><span class="tags-links"><span class="screen-reader-text">Etiquetas </span><a href="/tag/android/" rel="tag">android</a>, <a href="/tag/lego-nxt/" rel="tag">Lego NXT</a>, <a href="/tag/robot/" rel="tag">robot</a></span>			</footer><!-- .entry-footer -->
+		<span class="posted-on"><span class="screen-reader-text">Publicado el </span><a href="/robot-en-mi-placard/" rel="bookmark"><time class="entry-date published" datetime="2015-02-09T18:54:31+00:00">9 febrero, 2015</time><time class="updated" datetime="2015-02-10T05:12:46+00:00">10 febrero, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorías </span><a href="/category/android/" rel="category tag">Android</a>, <a href="/category/robotica/" rel="category tag">Robótica</a></span><span class="tags-links"><span class="screen-reader-text">Etiquetas </span><a href="/tag/android/" rel="tag">android</a>, <a href="/tag/lego-nxt/" rel="tag">Lego NXT</a>, <a href="/tag/robot/" rel="tag">robot</a></span>			</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
 
-	<nav class="navigation post-navigation" role="navigation">
-		<h2 class="screen-reader-text">Navegación de entradas</h2>
-		<div class="nav-links"><div class="nav-previous"><a href="/hola/" rel="prev"><span class="meta-nav" aria-hidden="true">Anterior</span> <span class="screen-reader-text">Entrada anterior:</span> <span class="post-title">hola</span></a></div></div>
-	</nav>
 		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+	</section><!-- .content-area -->
 
 
 	</div><!-- .site-content -->
